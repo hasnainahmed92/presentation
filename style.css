@@ -1,0 +1,257 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family:  Tahoma, sans-serif;
+}
+.hero{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background: white;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: orange;
+}
+:root{
+
+}
+.one{
+margin-left: 8%;
+margin-top: 13%;
+}
+.one h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+}
+.one p{
+    color: #555;
+    line-height: 22px;
+}
+.one a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.images{
+    width: 35%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 2s;;
+}
+.boy{
+    height: 400px;
+    width: 360px;
+    left: 40%;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .boy{
+    left: 45%;
+}
+.one a:hover{
+    color: orange;
+}
+.projects {
+    background-color: #f8f8f8;
+    padding: 4rem;
+  }
+  
+  .projects h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .projects ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .projects li {
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+  
+  .projects h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects p {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .projects a:hover{
+    background-color: #333;
+    color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  .projects a{
+    color: white;
+    font-weight: bold;
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-family: Tahoma, sans-serif;
+  }
+  .contact{
+    bottom: 30px;
+  }
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  input[type="submit"]:hover {
+    color: orange;
+  }
+  /* Styles for the toggle switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-top: 1rem;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 20;
+    height: 10;
+  }
+  
+  .slider {
+    position:absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px orange;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+    background-color: black;
+  }
+  body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+  }
+  
+  .dark-mode label.switch .slider {
+    background-color: #ddd;
+  }
+  
+  .dark-mode label.switch input:checked + .slider {
+    background-color: #444;
+  }
+  
+  .dark-mode label.switch input:checked + .slider:before {
+    transform: translateX(34px);
+    background-color: white;
+  }
+.section a{
+    text-decoration: none;
+}
